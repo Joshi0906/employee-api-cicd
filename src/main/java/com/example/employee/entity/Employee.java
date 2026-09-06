@@ -21,6 +21,8 @@ public class Employee {
     @PositiveOrZero
     private Double salary;
 
+    private String email;
+
     public Employee() {}
 
     public Employee(Long id, String name, String department, Double salary) {
@@ -47,4 +49,12 @@ public class Employee {
 
     public Double getSalary() { return salary; }
     public void setSalary(Double salary) { this.salary = salary; }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
 }
