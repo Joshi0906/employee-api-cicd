@@ -33,6 +33,7 @@ public class EmployeeService {
         employee.setName(input.getName());
         employee.setDepartment(input.getDepartment());
         employee.setSalary(input.getSalary());
+        employee.setAge(input.getAge());
         return repository.save(employee);
     }
 

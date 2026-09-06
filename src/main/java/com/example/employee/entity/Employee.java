@@ -23,6 +23,8 @@ public class Employee {
 
     private String email;
 
+    private int age;
+
     public Employee() {}
 
     public Employee(Long id, String name, String department, Double salary) {
@@ -56,5 +58,13 @@ public class Employee {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 }
